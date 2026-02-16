@@ -66,7 +66,7 @@ export default function LandingPage() {
               </div>
               <input
                 type="text"
-                placeholder="e.g. gymshark.com"
+                placeholder="e.g. vellies.com"
                 value={url}
                 onChange={(e) => setUrl(e.target.value)}
                 className="w-full bg-transparent border-none focus:ring-0 text-xl py-4 md:py-5 outline-none placeholder:text-muted-foreground/50"
